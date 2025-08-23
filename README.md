@@ -38,12 +38,47 @@ Cada pasta representa um projeto independente:
 
 ---
 
+## 📦 Pré-requisitos
+
+Antes de executar qualquer projeto, certifique-se de ter os seguintes itens instalados em seu computador:
+
+- ✅ [.NET SDK 6.0 ou superior](https://dotnet.microsoft.com/download): necessário para compilar e rodar os projetos em C#
+- ✅ [Git](https://git-scm.com/downloads): usado para baixar os arquivos do repositório (opcional)
+- ✅ [Visual Studio Code](https://code.visualstudio.com) ou outro editor de código de sua preferência
+
+---
+
 ## 🚀 Como Executar
 
-Navegue até o projeto desejado:
+Você pode baixar e executar os projetos de duas formas:
 
-```bash
-cd "Projetos C#/NomeDoProjeto"
+### 🔁 Opção 1: Usando Git (recomendado)
+
+1. Abra o terminal (Git Bash, PowerShell ou CMD)
+2. Clone o repositório com o comando:
+
+   ```bash
+   git clone https://github.com/AlanOliverDev/Projetos-CSharp.git
+   ```
+
+Acesse a pasta do projeto desejado:
+
+bash
+cd "Projetos-CSharp/Projetos C#/NomeDoProjeto"
+Execute o projeto com:
+
+bash
 dotnet run
 
-```
+📥 Opção 2: Baixar manualmente pelo GitHub
+Acesse o repositório: github.com/AlanOliverDev/Projetos-CSharp
+
+Clique no botão verde "Code" e depois em "Download ZIP"
+
+Extraia o arquivo ZIP em seu computador
+
+Abra a pasta do projeto desejado com o Visual Studio Code
+
+No terminal do VS Code (Git Bash, PowerShell ou CMD), execute:
+
+dotnet run
