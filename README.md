@@ -41,13 +41,21 @@ Cada pasta representa um projeto independente:
 
 ---
 
-## 📦 Pré-requisitos
+## ✅ Pré-requisitos
 
 Antes de executar qualquer projeto, certifique-se de ter os seguintes itens instalados em seu computador:
 
-- ✅ [.NET SDK 6.0 ou superior](https://dotnet.microsoft.com/download): necessário para compilar e rodar os projetos em C#
-- ✅ [Git](https://git-scm.com/downloads): usado para baixar os arquivos do repositório (opcional)
-- ✅ [Visual Studio Code](https://code.visualstudio.com) ou outro editor de código de sua preferência
+### 🔧 Requisitos gerais
+
+- ✅ [.NET SDK 6.0 ou superior](https://dotnet.microsoft.com/en-us/download): necessário para compilar e rodar os projetos em C#
+- ✅ [Git](https://git-scm.com/): usado para baixar os arquivos do repositório _(opcional, mas recomendado)_
+- ✅ [Visual Studio Code](https://code.visualstudio.com/) ou outro editor de código de sua preferência
+
+### 🐬 Requisitos adicionais para projetos com MySQL
+
+- ✅ [MySQL Server](https://dev.mysql.com/downloads/mysql/): necessário para executar os bancos de dados
+- ✅ [MySQL Workbench](https://dev.mysql.com/downloads/workbench/): ferramenta gráfica para gerenciar e executar scripts SQL
+- ✅ [.NET Connector para MySQL (MySql.Data)](https://www.nuget.org/packages/MySql.Data): biblioteca usada para conectar os projetos C# ao banco de dados MySQL
 
 ---
 
@@ -73,6 +81,8 @@ Execute o projeto com:
 bash
 dotnet run
 
+---
+
 📥 Opção 2: Baixar manualmente pelo GitHub
 Acesse o repositório: github.com/AlanOliverDev/Projetos-CSharp
 
@@ -85,6 +95,8 @@ Abra a pasta do projeto desejado com o Visual Studio Code
 No terminal do VS Code (Git Bash, PowerShell ou CMD), execute:
 
 dotnet run
+
+---
 
 🐬 Projetos com integração MySQL
 Alguns projetos utilizam banco de dados MySQL para armazenar e manipular dados. Para executá-los corretamente, siga os passos abaixo:
