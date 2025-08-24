@@ -25,6 +25,9 @@ Cada pasta representa um projeto independente:
 - 🎬 [Catalogo Netflix](https://github.com/AlanOliverDev/Projetos-CSharp/tree/main/Projetos%20C%23/Catalogo%20Netflix)
 - 🚘 [Objeto_Carro_interage_Motorista](https://github.com/AlanOliverDev/Projetos-CSharp/tree/main/Projetos%20C%23/Objeto_Carro_interage_Motorista)
 - 👤 [Um Novo Usuario](https://github.com/AlanOliverDev/Projetos-CSharp/tree/main/Projetos%20C%23/Um%20Novo%20Usuario)
+- 🏫 [ProjetoSGA_IntegradoMySql](https://github.com/AlanOliverDev/Projetos-CSharp/tree/main/Projetos%20C%23/ProjetoSGA_IntegradoMySql/SGA_SistemaGereciamentoAluno)
+- 🎧 [ProjetoSPOTIFEI_IntegradoMySql](https://github.com/AlanOliverDev/Projetos-CSharp/tree/main/Projetos%20C%23/ProjetoSPOTIFEI_IntegradoMySql%2BDiagrama/Project_Final_Integracao_SPOTYFEI)
+- 🐾 [ProjetoZoo_IntegradoMySql](https://github.com/AlanOliverDev/Projetos-CSharp/tree/main/Projetos%20C%23/ProjetoZoo_IntegradoMySql/ZooGerenciamento)
 
 ---
 
@@ -82,3 +85,40 @@ Abra a pasta do projeto desejado com o Visual Studio Code
 No terminal do VS Code (Git Bash, PowerShell ou CMD), execute:
 
 dotnet run
+
+🐬 Projetos com integração MySQL
+Alguns projetos utilizam banco de dados MySQL para armazenar e manipular dados. Para executá-los corretamente, siga os passos abaixo:
+
+✅ Pré-requisitos adicionais
+✔️ MySQL Server
+
+✔️ MySQL Workbench (opcional, para gerenciar o banco graficamente)
+
+✔️ .NET Connector para MySQL (MySql.Data)
+
+⚙️ Como configurar e executar
+Instale o MySQL Server e certifique-se de que ele está em execução.
+
+Abra o MySQL Workbench ou outro cliente MySQL.
+
+Execute o script SQL que está na pasta Script do projeto. Ele criará o banco de dados e todas as tabelas necessárias.
+
+Exemplo: abra o arquivo script.sql, cole no editor do MySQL Workbench e clique em "Run".
+
+Verifique a string de conexão no arquivo Connection.cs ou equivalente no projeto:
+
+csharp
+string connectionString = "server=localhost;user=root;password=senha;database=nome_do_banco";
+Execute o projeto normalmente no terminal:
+
+bash
+dotnet run
+📌 Observações
+O script SQL já inclui a criação do banco de dados — não é necessário criá-lo manualmente.
+
+Certifique-se de que o MySQL está rodando antes de executar o projeto.
+
+Se houver erros de conexão, revise a string de conexão e as permissões do usuário MySQL.
+
+✨ Autor
+Alan Oliver 🔗 GitHub : https://github.com/AlanOliverDev
